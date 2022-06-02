@@ -1,0 +1,72 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:whitesmoke;
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float:left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+.products{
+    margin-top: 200px;
+    margin-left: 40px;
+    display: inline-block;
+    justify-items: center;
+}
+
+.image{
+    min-height:340px;
+    object-fit: cover;
+}
+
+h3{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    margin-left: 20px;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+.mt-2{
+    display: block;
+    text-align: center;
+}
+.btn{
+    margin: 10px;
+    display: block;
+}
+.update-cart{
+    width: 80px;
+}
